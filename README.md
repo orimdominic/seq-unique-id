@@ -52,3 +52,8 @@ In order to make databases implement ACID, there will be database locks during
 writes. This is not good for a system where multiple instances of the controller
 are trying to read and/or write to the database simultaneously. It is bad for
 performance and latency.
+
+**References**
+- https://www.callicoder.com/distributed-unique-id-sequence-number-generator/
+
+- https://stackoverflow.com/questions/2671858/distributed-sequence-number-generation
